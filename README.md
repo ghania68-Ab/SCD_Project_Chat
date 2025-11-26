@@ -43,8 +43,8 @@ The code follows a minimal, standard structure matching the final GitHub reposit
 
 **Known Issues (Fixed and Unfixed)**
 
-_Crucial Fixed Issue (Factory/Decorator Conflict)_: A conflict arose where the "TimestampDecorator" wrapped the RED "SystemMessage", making the coloring logic fail. This was resolved by implementing a dedicated "unwrapMessage()" utility that correctly identifies the base message type before applying the necessary RED color style.
+**_Crucial Fixed Issue (Factory/Decorator Conflict)_**: A conflict arose where the "TimestampDecorator" wrapped the RED "SystemMessage", making the coloring logic fail. This was resolved by implementing a dedicated "unwrapMessage()" utility that correctly identifies the base message type before applying the necessary RED color style.
 
-_JTextPane Alignment_: Due to limitations in Java Swing, user messages are colored blue but do not align reliably to the far right side of the screen as they would in a real chat application. Color coding is used instead for clear sender differentiation.
+**_JTextPane Alignment_**: Due to limitations in Java Swing, user messages are colored blue but do not align reliably to the far right side of the screen as they would in a real chat application. Color coding is used instead for clear sender differentiation.
 
-_Simulated Network_: Message delivery from "TeacherBot" is simulated using fixed random delays and is not connected to a real network API.
+**_Simulated Network_**: Message delivery from "TeacherBot" is simulated using fixed random delays and is not connected to a real network API.
