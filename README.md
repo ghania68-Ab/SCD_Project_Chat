@@ -36,9 +36,21 @@ This project is built using standard Java libraries (JDK) and does not require a
 
 The code follows a minimal, standard structure matching the final GitHub repository:
 
-/SCD_Project_Chat (Repository Root)
-├── src/
-│   └── ChatSimulator.java  <-- Main executable file
+/SCD_PROJECT_CHAT (Repository Root)
+├── SCD PROJECT/
+│   ├── ChatEngine.class
+│   ├── ChatSession.class
+│   ├── ChatSessionBuilder.class
+│   ├── ChatSimulator.java           <-- Main executable file for simulation
+│   ├── ChatMessage.java
+│   ├── MessageDecorator.class
+│   ├── MessageFactory.class
+│   ├── Observer.class
+│   ├── Subject.class
+│   ├── SystemMessage.class
+│   ├── TextMessageDecorator.class
+│   ├── TimestampDecorator.class
+│   └── UpperCaseDecorator.class
 └── README.md
 
 **Known Issues (Fixed and Unfixed)**
